@@ -72,7 +72,6 @@ struct Engine {
             lastIndex.erase(lastname);
         }
         else {
-            int swaprecord;
             for (int i = 0; i<vectorofindx->size(); i++) {
                 if ((*vectorofindx)[i] == *recordindx) {
                     (*vectorofindx)[i] = (*vectorofindx)[vectorofindx->size()-1];
